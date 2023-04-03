@@ -1,5 +1,4 @@
-
-import 'file_editor_platform_interface.dart';
+import 'package:file_editor_platform_interface/file_editor_platform_interface.dart';
 
 class FileEditor {
   Future<String?> getPlatformVersion() {

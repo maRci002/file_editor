@@ -1,7 +1,6 @@
+import 'package:file_editor_platform_interface/src/file_editor_platform.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
-
-import 'file_editor_platform_interface.dart';
 
 /// An implementation of [FileEditorPlatform] that uses method channels.
 class MethodChannelFileEditor extends FileEditorPlatform {

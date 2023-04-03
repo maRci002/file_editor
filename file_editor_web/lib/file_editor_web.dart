@@ -4,9 +4,8 @@
 // ignore: avoid_web_libraries_in_flutter
 import 'dart:html' as html show window;
 
+import 'package:file_editor_platform_interface/file_editor_platform_interface.dart';
 import 'package:flutter_web_plugins/flutter_web_plugins.dart';
-
-import 'file_editor_platform_interface.dart';
 
 /// A web implementation of the FileEditorPlatform of the FileEditor plugin.
 class FileEditorWeb extends FileEditorPlatform {

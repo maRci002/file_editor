@@ -64,6 +64,20 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  file_editor_platform_interface:
+    dependency: transitive
+    description:
+      path: "../../file_editor_platform_interface"
+      relative: true
+    source: path
+    version: "1.0.0"
+  file_editor_web:
+    dependency: transitive
+    description:
+      path: "../../file_editor_web"
+      relative: true
+    source: path
+    version: "1.0.0"
   flutter:
     dependency: "direct main"
     description: flutter

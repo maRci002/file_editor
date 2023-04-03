@@ -1,7 +1,6 @@
 name: file_editor
 description: A new Flutter plugin project.
 version: 0.0.1
-homepage:
 
 environment:
   sdk: '>=2.19.5 <3.0.0'
@@ -13,6 +12,10 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.0.2
+  file_editor_platform_interface:
+    path: ../file_editor_platform_interface
+  file_editor_web:
+    path: ../file_editor_web
 
 dev_dependencies:
   flutter_test:
@@ -42,8 +45,7 @@ flutter:
       ios:
         pluginClass: FileEditorPlugin
       web:
-        pluginClass: FileEditorWeb
-        fileName: file_editor_web.dart
+        default_package: file_editor_web
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
