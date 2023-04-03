@@ -16,3 +16,11 @@ dependencies:
 
 dev_dependencies:
   lints: ^2.0.0
+
+flutter:
+  plugin:
+    implements: file_editor
+    platforms:
+      web:
+        pluginClass: FileEditorWeb
+        fileName: file_editor_web.dart
